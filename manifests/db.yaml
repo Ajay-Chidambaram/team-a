@@ -1,0 +1,17 @@
+apiVersion: iam.aws.crossplane.tech/v1alpha1
+kind: DBInstance
+metadata:
+  name: "team-a"
+spec:
+  tableName: "team-a"
+  roleName: "team-a"
+  awsRegion: us-east-1
+  customTags:
+    key1: value1
+    key2: value2
+  managementPolicies:
+  - Observe
+  - Create
+  - Update
+  - Delete
+  - LateInitialize

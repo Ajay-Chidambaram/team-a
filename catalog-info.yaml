@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "team-a"
+  annotations:
+    github.com/project-slug: Ajay-Chidambaram/team-a
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
