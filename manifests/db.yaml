@@ -1,4 +1,4 @@
-apiVersion: iam.aws.crossplane.tech/v1alpha1
+apiVersion: iam.aws.demo.tech/v1alpha1
 kind: DBInstance
 metadata:
   name: "team-a"
