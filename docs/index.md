@@ -4,7 +4,7 @@ This will deploy Dynamodb and IAM.
 
 ## topic 1
 
-Hope you are not sleeping !! :face_in_clouds:
+Hope you are not sleeping !! :)
 
 ## topic 2 
 
